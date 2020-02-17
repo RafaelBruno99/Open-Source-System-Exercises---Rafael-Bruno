@@ -5,6 +5,5 @@
       echo "I must have been to class $count. </br>";
     }
   ?>
-
 </body>
 </html>
