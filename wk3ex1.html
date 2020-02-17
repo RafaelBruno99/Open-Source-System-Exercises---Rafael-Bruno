@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>HTML form submitted to php</title>
+</head>
+
+<body>
+  <form action="wk3ex1action.php" method="post">
+    Enter your name
+    <input type="text" name="txtname" size="30"/><br/><br/>
+    Gender
+    <input type="radio" name="radsex" value="Male"/>Male
+    <input type="radio" name="radsex" value="Female"/>Female
+    <input type="radio" name="radsex" value="Other"/>Other<br/><br/>
+
+    <label for="seloccupation">Occupation: </label>
+
+    <select name="seloccupation">
+      <option value="Police">Police Guard</option>
+      <option value="Lecturer">Lecturer</option>
+      <option value="Customer Assitant">Customer Assistant</option>
+      <option value="Carpinter">Carpinter</option>
+
+    </select></br></br>
+
+    <input type="submit" value="display">
+  </form>
+
+</body>
+
+</html>
