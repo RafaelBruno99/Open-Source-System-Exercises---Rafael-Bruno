@@ -6,7 +6,7 @@
 
 <body>
   <?php
-  if ($_POST[“txtage”] < 21)
+  if ($_POST["txtage"] < 21)
     {
     echo "You are under 21 years old<br/>";
     }
