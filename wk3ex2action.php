@@ -6,11 +6,20 @@
 
 <body>
   <?php
-    if ($_POST["txtage"] < 21) {
-      echo "You are under 21 years old <br/>";
-    }
-    else {
-      echo "You are over 21 years old <br/>";
+    switch ($_POST["radcourse"]) {
+      case 'HNC':
+        echo "You have select an HNC course";
+        break;
+        case 'HND':
+          echo "You have select an HND course";
+          break;
+          case 'BSC':
+            echo "You have select an BSC course";
+            break;
+
+      default:
+        echo "No course selected";
+        break;
     }
    ?>
 </body>
