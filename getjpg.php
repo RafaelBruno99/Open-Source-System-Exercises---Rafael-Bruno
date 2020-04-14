@@ -9,7 +9,7 @@
   $result = mysqli_query($sql, $conn);
   $row = mysqli_fetch_array($result);
 
-  $jpg = $row["image"];
+  $jpg = $row["Image"];
 
   echo $jpg;
 ?>
