@@ -4,7 +4,7 @@
 
   $conn = mysqli_connect("localhost", "root", "", "store");
 
-  $sql = "SELECT audio FROM monster WHERE id='" . $_GET[id] ."';";
+  $sql = "SELECT audio FROM monster WHERE id='$_GET[id]';";
 
   $result = mysqli_query($sql, $conn);
   $row = mysqli_fetch_array($result);
